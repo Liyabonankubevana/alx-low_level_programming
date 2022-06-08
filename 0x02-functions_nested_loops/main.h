@@ -1,11 +1,14 @@
-#ifndef MAIN_H
-#define MAIN_H
+#include <unistd.h>
+#include "main.h"
 
-#include <stdio.h>
-
-int largest_number(int a, int b, int c);
-void print_remaining_days(int month, int day, int year);
-int convert_day(int month, int day);
-void positive_or_negative(int n);
-
-#endif
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
