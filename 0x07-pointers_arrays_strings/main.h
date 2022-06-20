@@ -1,7 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-#include <stddef.h>
+#ifndef _MAIN_H
+#define _MAIN_H
 
 int _putchar(char c);
 void *_memset(void *s, int c, size_t n);
